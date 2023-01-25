@@ -1,0 +1,1 @@
+# Minimal-Graphical-EndeavourOS-Config

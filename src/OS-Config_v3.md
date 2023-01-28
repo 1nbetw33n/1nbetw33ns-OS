@@ -2,7 +2,7 @@
 #### A script to install and configure a heavily customized, transparent minimal EndeavourOS installation.
 #### Version: 0.0.2
 #### Author: 1nbetw33n
-#### System Accent Color: `#B526FF`
+#### System Accent Color: `#b702ff` | Old System Accent Color: `#B526FF`
 #### Script Call: `bash /run/media/inbetween/Backup/EndeavourOS/os-config/scripts/OS-Config-Installer.sh`
 
 ## 00 EndeavourOS Installer
@@ -16,6 +16,7 @@
 4. ### Package Cleanup Config
 
 ## 02 Install Core
+* edit `/etc/gdm/custom.conf` and uncomment `#WaylandEnable=false`, then `sudo systemctl restart gdm`
 * Timeshift
 * Timeshift-autosnap
 * REISUB
@@ -47,15 +48,15 @@
 
 ## 04 Config Extensions
 1. ### Transparent Window Moving
-   Set Border Color to System Accent Color: `#B526FF`
+   Set Border Color to `System Accent Color`
 2. ### Forge _(disabled for now)_
    /Appearance/Color: Set all to transparent and apply changes
 3. ### Resource Monitor
    Disable: Disk, Net, Thermal, GPU
 4. ### TopHat
-   Set Meter Color to System Accent Color: `#B526FF`
+   Set Meter Color to `System Accent Color`
 5. ### Burn My Windows
-   Set Color to System Accent Color: `#B526FF`
+   Set Color to `System Accent Color`
 6. ### gNordVPN-Local
    /General: Enable Auto-connect on Startup
 
@@ -88,6 +89,7 @@
     * Set `Default color` `text` to `#FFFFFF`
 * NordVPN
 * Firefox
+  * Enhancer for YouTube: Enable `YouTube-DeepDark (custom)` and set --main-color to `System Accent Color`
 * Firefox Dev
 * Brave
 * BetterDiscord

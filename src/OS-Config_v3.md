@@ -3,7 +3,7 @@
 #### Version: 0.0.2
 #### Author: 1nbetw33n
 #### System Accent Color: `#B526FF`
-#### Script: `bash /run/media/inbetween/Backup/EndeavourOS/os-config/scripts/OS-Config-Installer.sh`
+#### Script Call: `bash /run/media/inbetween/Backup/EndeavourOS/os-config/scripts/OS-Config-Installer.sh`
 
 ## 00 EndeavourOS Installer
 * _TODO: write script_
@@ -81,6 +81,11 @@
 * nordvpn-bin
 
 ## 06 Config Apps
+* gnome-terminal
+   /Profiles/Unnamed/Colors: 
+    * Disable `Use colors from system theme`
+    * Set `Built in schemes` to `Gnome Dark`
+    * Set `Default color` `text` to `#FFFFFF`
 * NordVPN
 * Firefox
 * Firefox Dev

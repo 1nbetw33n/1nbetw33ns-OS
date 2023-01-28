@@ -128,8 +128,8 @@
         Super + F
    </pre>
 
-3. ### OS Config PFP
-4. ### OS Config Background
+3. ### Config OS PFP
+4. ### Config OS Background
 
 ## 09 Remove unused Apps
 * gnome-console

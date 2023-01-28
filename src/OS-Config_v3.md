@@ -14,9 +14,11 @@
 2. ### Update System (EndeavourOS)
 3. ### Update System
 4. ### Package Cleanup Config
+5. ### Misc
+* sed
+* completely disable wayland and set x11 as default session
 
 ## 02 Install Core
-* edit `/etc/gdm/custom.conf` and uncomment `#WaylandEnable=false`, then `sudo systemctl restart gdm`
 * Timeshift
 * Timeshift-autosnap
 * REISUB

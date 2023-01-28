@@ -7,12 +7,10 @@
 \author{1nbetw33n}
 
 % Packages
-\usepackage[paperwidth=30cm,paperheight=500cm,margin=1in]{geometry}
+\usepackage[paperwidth=40cm,paperheight=500cm,margin=1in]{geometry}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{color}
-
-
 
 % Document
 \begin{document}
@@ -33,6 +31,7 @@
 
 
     \section{Core}\label{sec:core}
+        Run in CLI:
         \begin{verbatim}
             yay -S timeshift
             yay -S timeshift-autosnap
@@ -40,19 +39,33 @@
             echo 'kernel.sysrq=1' | sudo tee /etc/sysctl.d/99-reisub.conf
             yay -S zsh
             sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-            yay -S gnome-browser-connector
         \end{verbatim}
 
 
     \section{Config Firefox}\label{sec:config-firefox}
-        \begin{itemize}
-            \item TODO
-        \end{itemize}
+        \textbf{Way 1 (Transfer .mozilla directory):}
+        \newline Run in CLI:
+        \begin{verbatim}
+            mv -f /run/media/inbetween/Backup/EndeavourOS/home/.mozilla /home/inbetween/
+        \end{verbatim}
+        \textbf{Way 2 (Transfer Profile directory):}
+        \newline Run in CLI:
+        \begin{verbatim}
+            mv -f /run/media/inbetween/Backup/EndeavourOS/home/.mozilla/firefox/l0utqk8x.default-release /home/inbetween/.mozilla/firefox
+        \end{verbatim}
 
     \section{Extensions}\label{sec:extensions}
-        \href{https://extensions.gnome.org/}{Gnome Extensions}
+        \href{https://extensions.gnome.org/}{Download Gnome Extensions here}
+        \newline
+        \newline \textbf{Way 1 (Transfer Extensions and Configs):}
+        \newline Run in CLI:
         \begin{verbatim}
-            EndeavourOS/home/.local/share/gnome-shell/extensions/
+            mv -f /run/media/inbetween/Backup/EndeavourOS/home/.local/share/gnome-shell/extensions /home/inbetween/.local/share/gnome-shell/extensions
+        \end{verbatim}
+        \textbf{Way 2 (Install Extensions through Script and configure them manually):}
+        \newline Run in CLI:
+        \begin{verbatim}
+            /run/media/inbetween/Backup/EndeavourOS/os-config/Extensions-Config/Extensions-Install-Script.sh
         \end{verbatim}
         \begin{enumerate}
             \item Extension List
@@ -99,7 +112,9 @@
         \end{enumerate}
 
     \section{Misc}\label{sec:misc}
+        Run in CLI:
         \begin{verbatim}
+            yay -S gnome-browser-connector
             yay -S bpytop
             yay -S ocs-url
             yay -S alacarte
@@ -135,12 +150,10 @@
         \begin{enumerate}
             \item TODO
             \item Config Gnome-Tweaks
-            \begin{enumerate}
-                \begin{verbatim}
-                    Cursors + Icons: EndeavourOS/home/.icons
-                    Shell Theme: EndeavourOS/home/.themes
-                \end{verbatim}
-            \end{enumerate}
+            \begin{verbatim}
+                Cursors + Icons: EndeavourOS/home/.icons
+                   Shell Theme: EndeavourOS/home/.themes
+            \end{verbatim}
             \item Config Settings
             \begin{enumerate}
                 \item Misc Settings

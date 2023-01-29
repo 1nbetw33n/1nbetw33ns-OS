@@ -7,7 +7,6 @@
 #### Script Path: `/run/media/inbetween/Backup/EndeavourOS/os-config/scripts/os-config-installer.sh`
 
 ## 0 EndeavourOS Installer
-* _**TODO: write script**_
 ### Installer
 * Select `Start the Installer`
 * Choose `Online`

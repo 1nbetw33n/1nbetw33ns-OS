@@ -63,7 +63,7 @@
 #### gNordVPN-Local
    /General: Enable `Auto-connect on Startup`
 
-## 05 Install Misc
+## 05 Install Packages
 * gnome-terminal
 * gnome-browser-connector
 * bpytop

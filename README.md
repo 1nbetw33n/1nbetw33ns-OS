@@ -1,6 +1,6 @@
 # Minimal UI EOS Install Script
 #### A script to install and configure a heavily customized, transparent, minimal EndeavourOS with purple Accents.
-#### Version: 1.2.1
+#### Version: 1.3.1
 #### Author: 1nbetw33n
 #### System Accent Color: `#b702ff`
 #### Old System Accent Color: `#b526ff`

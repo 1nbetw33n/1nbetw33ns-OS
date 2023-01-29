@@ -8,6 +8,38 @@
 
 ## 0 EndeavourOS Installer
 * _**TODO: write script**_
+### Installer
+* Select ’Start the Installer’
+* Choose ’Online’
+#### Welcome
+* Select ’American English’
+#### Location
+* Select ’Europe’ and ’Berlin’
+#### Keyboard
+* Select ’German’ and ’Default’
+#### Desktop
+* Select ’GNOME’
+#### Packages
+* Select:
+ * ’Desktop-Base + Common Packages’
+ * ’CPU specific Microcode update packages’
+ * ’Firefox and language package’
+ * ’GNOME-Desktop’
+ * ’Printing-Support’
+ * ’Support for Hp Printer/Scanner’
+#### Boatloader
+* Select ’systemd-boot’
+#### Partitions
+* Select ’Erase Disk’
+ * Select ’Swap (with Hibernate)’ and ’btrfs’
+* Select ’Encrypt system’
+* Enter password twice
+#### Users
+* Fill out information
+* Select ’Use the same password for the administrator account’
+#### Summary
+* Check settings
+* Install
 
 ## 1 Welcome
 * _**TODO: write script**_

@@ -1,9 +1,9 @@
 # Minimal UI EOS Install & Config Script
 #### A script to install and configure a heavily customized, transparent minimal EndeavourOS installation.
-#### Version: 1.0.0
+#### Version: 1.0.1
 #### Author: 1nbetw33n
-#### System Accent Color: `#b702ff` | Old System Accent Color: `#B526FF`
-#### Script Call: `bash /run/media/inbetween/Backup/EndeavourOS/os-config/scripts/OS-Config-Installer.sh`
+#### System Accent Color: `#b702ff` | Old System Accent Color: `#b526ff`
+#### Script Path: `/run/media/inbetween/Backup/EndeavourOS/os-config/scripts/os-config-installer.sh`
 
 ## 00 EndeavourOS Installer
 * _TODO: write script_
@@ -17,6 +17,7 @@
 5. ### Misc
 * sed
 * completely disable wayland and set x11 as default session
+* gdm-tools
 
 ## 02 Install Core
 * Timeshift

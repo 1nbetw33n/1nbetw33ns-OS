@@ -86,7 +86,7 @@
 * nordvpn-bin
 
 ## 06 Config Apps
-* gnome-terminal
+* Gnome Terminal
   /Profiles/Unnamed/Colors:
     * Disable `Use colors from system theme`
     * Set `Built in schemes` to `Gnome Dark`
@@ -101,7 +101,7 @@
 * Thunderbird
 * Zettlr
 * IntelliJ
-* Texteditor
+* Gnome Texteditor
   * /View: Enable `Line Numbers`
   * press `Ctrl + ,` to open Preferences
     * Set theme to `Classic Dark`

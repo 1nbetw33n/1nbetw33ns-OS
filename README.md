@@ -4,7 +4,7 @@
 #### Author: 1nbetw33n
 #### System Accent Color: `#b702ff`
 #### Old System Accent Color: `#b526ff`
-#### Script Path: `/run/media/inbetween/Backup/EndeavourOS/os-config/scripts/os-config-installer.sh`
+#### Script Path: `/run/media/inbetween/Backup/EndeavourOS/os-config/script/minimal-eos-installer.sh`
 
 ## 0 EndeavourOS Installer
 ### Installer

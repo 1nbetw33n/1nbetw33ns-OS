@@ -7,10 +7,10 @@
 #### Script Path: `/run/media/inbetween/Backup/EndeavourOS/os-config/scripts/os-config-installer.sh`
 
 ## 00 EndeavourOS Installer
-* _TODO: write script_
+* _**TODO: write script**_
 
 ## 01 Welcome
-* _TODO: write script_
+* _**TODO: write script**_
 ### Update Mirrors (Arch)
 ### Update System (EndeavourOS)
 ### Update System
@@ -119,7 +119,7 @@
 * IntelliJ
 
 ## 07 Transfer Data
-* **TODO: Update this Section**
+* _**TODO: Update this Section**_
 *  Documents
 *  Pictures
 *  .hbrs-certs

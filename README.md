@@ -1,6 +1,6 @@
 # Minimal UI EOS Install & Config Script
 #### A script to install and configure a heavily customized, transparent minimal EndeavourOS installation.
-#### Version: 1.1.0
+#### Version: 1.1.1
 #### Author: 1nbetw33n
 #### System Accent Color: `#b702ff`
 #### Old System Accent Color: `#b526ff`
@@ -62,7 +62,7 @@
 5. ### Burn My Windows
    Set Color to `System Accent Color`
 6. ### gNordVPN-Local
-   /General: Enable Auto-connect on Startup
+   /General: Enable `Auto-connect on Startup`
 
 ## 05 Install Misc
 * gnome-terminal
@@ -93,7 +93,7 @@
     * Set `Default color` `text` to `#FFFFFF`
 * NordVPN
 * Firefox
-    * Enhancer for YouTube: Enable `YouTube-DeepDark (custom)` and set --main-color to `System Accent Color`
+    * Enhancer for YouTube: Enable `YouTube-DeepDark (custom)` and set `--main-color` to `System Accent Color`
 * Firefox Dev
 * Brave
 * BetterDiscord
@@ -101,6 +101,12 @@
 * Thunderbird
 * Zettlr
 * IntelliJ
+* Texteditor
+  * /View: Enable `Line Numbers`
+  * press `Ctrl + ,` to open Preferences
+    * Set theme to `Classic Dark`
+    * Set font to `Cantarell 11`
+    * Enable `Highlight current line`
 
 ## Login to Accounts
 * NordVPN

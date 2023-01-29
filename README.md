@@ -143,7 +143,7 @@ Super + F
 #### Config OS PFP
 #### Config OS Background
 
-## 09 Remove unused Apps
+## 09 Remove unused Packages
 * gnome-console
 
 ## 10 Config Wifi

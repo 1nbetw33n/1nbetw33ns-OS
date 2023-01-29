@@ -139,7 +139,6 @@
 * ocs-url
 * alacarte
 * gdm-tools
-* termdown
 * darktable
 * gimp
 * gthumb

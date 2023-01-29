@@ -11,11 +11,11 @@
 
 ## 01 Welcome
 * _**TODO: write script**_
-### Update Mirrors (Arch)
-### Update System (EndeavourOS)
-### Update System
-### Package Cleanup Config
-### Misc
+#### Update Mirrors (Arch)
+#### Update System (EndeavourOS)
+#### Update System
+#### Package Cleanup Config
+#### Misc
 * sed
 * permanently disable wayland and set x11 as default session
 

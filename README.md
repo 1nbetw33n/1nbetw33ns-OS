@@ -50,7 +50,7 @@
 * Vertical Workspaces
 
 ## 04 Config Extensions
-### Transparent Window Moving
+#### Transparent Window Moving
    Set Border Color to `System Accent Color`
 #### Forge _(disabled for now)_
    /Appearance/Color: Set all to transparent and apply changes

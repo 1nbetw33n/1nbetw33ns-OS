@@ -1,8 +1,9 @@
 # Minimal UI EOS Install & Config Script
 #### A script to install and configure a heavily customized, transparent minimal EndeavourOS installation.
-#### Version: 1.0.1
+#### Version: 1.1.0
 #### Author: 1nbetw33n
-#### System Accent Color: `#b702ff` | Old System Accent Color: `#b526ff`
+#### System Accent Color: `#b702ff`
+#### Old System Accent Color: `#b526ff`
 #### Script Path: `/run/media/inbetween/Backup/EndeavourOS/os-config/scripts/os-config-installer.sh`
 
 ## 00 EndeavourOS Installer

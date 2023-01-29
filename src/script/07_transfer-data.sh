@@ -3,7 +3,7 @@
 home=/home/inbetween
 backup_home=/run/media/inbetween/Backup/EndeavourOS/home
 
-#transfer entire backup_home
+#transfer entire backup_home -> home
 	##asking for location of backup
 	#echo "enter backup location:"
 	#echo "(for example: /run/media/inbetween/Backup/EOS_29-01-2023)"

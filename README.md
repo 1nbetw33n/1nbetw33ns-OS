@@ -1,6 +1,6 @@
 # Minimal UI EOS Install & Config Script
 #### A script to install and configure a heavily customized, transparent minimal EndeavourOS installation.
-#### Version: 1.1.1
+#### Version: 1.2.0
 #### Author: 1nbetw33n
 #### System Accent Color: `#b702ff`
 #### Old System Accent Color: `#b526ff`
@@ -11,14 +11,13 @@
 
 ## 01 Welcome
 * _TODO: write script_
-1. ### Update Mirrors (Arch)
-2. ### Update System (EndeavourOS)
-3. ### Update System
-4. ### Package Cleanup Config
-5. ### Misc
+### Update Mirrors (Arch)
+### Update System (EndeavourOS)
+### Update System
+### Package Cleanup Config
+### Misc
 * sed
-* completely disable wayland and set x11 as default session
-* gdm-tools
+* permanently disable wayland and set x11 as default session
 
 ## 02 Install Core
 * Timeshift
@@ -51,17 +50,17 @@
 * Vertical Workspaces
 
 ## 04 Config Extensions
-1. ### Transparent Window Moving
+### Transparent Window Moving
    Set Border Color to `System Accent Color`
-2. ### Forge _(disabled for now)_
+### Forge _(disabled for now)_
    /Appearance/Color: Set all to transparent and apply changes
-3. ### Resource Monitor
+### Resource Monitor
    Disable: Disk, Net, Thermal, GPU
-4. ### TopHat
+### TopHat
    Set Meter Color to `System Accent Color`
-5. ### Burn My Windows
+### Burn My Windows
    Set Color to `System Accent Color`
-6. ### gNordVPN-Local
+### gNordVPN-Local
    /General: Enable `Auto-connect on Startup`
 
 ## 05 Install Misc
@@ -70,6 +69,7 @@
 * bpytop
 * ocs-url
 * alacarte
+* gdm-tools
 * darktable
 * gimp
 * gthumb
@@ -107,8 +107,8 @@
     * Set theme to `Classic Dark`
     * Set font to `Cantarell 11`
     * Enable `Highlight current line`
-
-## Login to Accounts
+    
+### Login to Accounts
 * NordVPN
 * NordPass
 * Firefox
@@ -124,26 +124,26 @@
 *  .hbrs-certs
 
 ## 08 Config System
-1. ### Config Gnome Tweaks
-2. ### Config OS Settings
-   #### Custom Shortcuts:
-    <pre>
-        Launch CLI
-        gnome-terminal
-        Super + T
-   </pre>
-    <pre>
-        Launch Files
-        nautilus --new-window
-        Super + F
-   </pre>
+### Config Gnome Tweaks
+### Config OS Settings
+#### Custom Shortcuts:
+<pre>
+Launch CLI
+gnome-terminal
+Super + T
+</pre>
+<pre>
+Launch Files
+nautilus --new-window
+Super + F
+</pre>
 
-3. ### Config OS PFP
-4. ### Config OS Background
+### Config Lockscreen Background
+### Config OS PFP
+### Config OS Background
 
 ## 09 Remove unused Apps
 * gnome-console
-*
 
 ## 10 Config Wifi
 * https://www.h-brs.de/de/wlan-nutzung-an-der-hbrs

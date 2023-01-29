@@ -1,11 +1,17 @@
 #!bin/bash
 
-#unused apps
-apps=(
+#unused packages
+packages=(
 	gnome-console
 	)
 
-#removing apps
-for app in "${apps[@]}"; do
-	yay -R $app
+#printing unused packages to cli
+echo "### Removing multiple packages:"
+for pkg in "${packages[@]}"; do
+	echo "$pkg"
+done
+
+#removing packages
+for pkg in "${packages[@]}"; do
+	yay -R $pkg
 done

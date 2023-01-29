@@ -20,3 +20,8 @@ backup_home=/run/media/inbetween/Backup/EndeavourOS/home
 		#copy all files and sub directories to target
 		echo "### Copying data from backup -> target"
 		cp -r $backup_home/.themes/. $home/.themes
+		
+#Lockscreen Background
+		#change lockscreen background
+		set-gdm-theme set -b Pictures/4_Backgrounds/galaxy-dark_3.webp
+

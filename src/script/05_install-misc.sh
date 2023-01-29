@@ -1,14 +1,15 @@
 #!/bin/bash
 
-echo "### Installing Multiple Packages:"
 #package names
 packages=(
-gnome-terminal gnome-browser-connector bpytop ocs-url alacarte darktable gimp gthumb brave 
+gnome-terminal gnome-browser-connector bpytop ocs-url alacarte 
+gdm-tools darktable gimp gthumb brave 
 firefox-developer-edition discord telegram-desktop thunderbird masterpdfeditor-free zettlr 
 libreoffice-fresh intellij-idea-ultimate-edition obs-studio vlc nodpass-bin nordvpn-bin
 ) 
 
 #printing package names to cli
+echo "### Installing multiple packages:"
 for pkg in "${packages[@]}"; do
 	echo "$pkg"
 done

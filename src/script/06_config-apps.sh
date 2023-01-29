@@ -53,6 +53,5 @@ backup_home=/run/media/inbetween/Backup/EndeavourOS/home
 	cd $backup_home/.config/Zettlr
 	cp -r stats.json config.json custom.css tags.json targets.json user.dic defaults snippets $home/.config/Zettlr
 	
-
 #IntelliJ
 	#TODO: write code

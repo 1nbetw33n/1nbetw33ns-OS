@@ -2,14 +2,14 @@
 
 home_dir=/home/inbetween
 ext_home_dir=/run/media/inbetween/Backup/EndeavourOS/home
-scripts_dir=/run/media/inbetween/Backup/EndeavourOS/os-config/scripts
+scripts_dir=/run/media/inbetween/Backup/EndeavourOS/os-config/script
 
-########## init ##########
+########## Init ##########
 
 echo "### minimal eos installer: initialized script"
 
 ############################
-##########  welcome ##########
+##########  1 Welcome ##########
 
 #installing sed
 echo "### installing sed"
@@ -19,7 +19,7 @@ echo "### permanently disabling Wayland and setting X11 as default session"
 sed -i 's/#WaylandEnable=false/WaylandEnable=false\nDefaultSession=gnome-xorg.desktop/g' $home_dir/Documents/custom.conf
 
 ############################
-########## core ##########
+########## 2 Core ##########
 
 echo "### installing timeshift"
 yay -S timeshift
@@ -40,7 +40,7 @@ echo "### installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ############################
-##########  extensions ##########
+##########  3 Extensions ##########
 
 echo "### downloading and installing gnome extensions"
 
@@ -74,7 +74,7 @@ done
 ##cp -r $ext_home_dir/.local/share/gnome-shell/extensions $home_dir/.local/share/gnome-shell/extension
 
 ############################
-########## packages ##########
+########## 4 Packages ##########
 
 #package names
 packages=(
@@ -94,8 +94,7 @@ for pkg in "${packages[@]}"; do
 	yay -S $pkg
 done
 
-
-#BetterDiscord
+#betterdiscord
 echo "### downloading BetterDiscord"
 curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
 chmod +x betterdiscordctl
@@ -115,10 +114,14 @@ betterdiscordctl install
 	rm -rf $home_dir/.mozilla/*
 
 	echo "### copying data from backup -> target"
-	cp -r $ext_home_dir/.mozilla/. $home_dir
+	cp -r $ext_home_dir/.mozilla/. $home_dir/.mozilla
 
 #brave
-	##TODO: write code
+	echo "### removing data from target"
+	rm -rf $home_dir/.config/BraveSoftware/Brave-Browser/Default/*
+	
+	echo "### copying data from backup -> target"
+	cp -a $ext_home_dir/.config/BraveSoftware/Brave-Browser/Default/. $home_dir/.config/BraveSoftware/Brave-Browser/Default
 
 #betterdiscord
 	echo "### removing data from target"
@@ -151,12 +154,28 @@ betterdiscordctl install
 	echo "### copying data from backup -> target"
 	cd $ext_home_dir/.config/Zettlr
 	cp -r stats.json config.json custom.css tags.json targets.json user.dic defaults snippets $home_dir/.config/Zettlr
+	cd
 	
 #intellij
 	##TODO: write code
 	
+#unused packages
+packages=(
+	gnome-console
+	)
+
+echo "### removing multiple packages:"
+for pkg in "${packages[@]}"; do
+	echo "$pkg"
+done
+
+#removing packages
+for pkg in "${packages[@]}"; do
+	yay -R $pkg
+done
+	
 ############################
-##########  transfer data ##########
+##########  5 Transfer Data ##########
 
 #transfer entire ext_home -> home
 	#echo "enter backup location:"
@@ -219,24 +238,6 @@ betterdiscordctl install
 #config window switcher behaviour
 ##echo "### configuring window switcher behaviour"
 ##bash $scripts_dir/gnome-window-switcher.sh
-
-############################
-########## remove unused packages ##########
-
-#unused packages
-packages=(
-	gnome-console
-	)
-
-echo "### removing multiple packages:"
-for pkg in "${packages[@]}"; do
-	echo "$pkg"
-done
-
-#removing packages
-for pkg in "${packages[@]}"; do
-	yay -R $pkg
-done
 
 ############################
 ########## exit ##########

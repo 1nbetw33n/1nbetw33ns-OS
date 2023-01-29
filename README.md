@@ -52,15 +52,15 @@
 ## 04 Config Extensions
 ### Transparent Window Moving
    Set Border Color to `System Accent Color`
-### Forge _(disabled for now)_
+#### Forge _(disabled for now)_
    /Appearance/Color: Set all to transparent and apply changes
-### Resource Monitor
+#### Resource Monitor
    Disable: Disk, Net, Thermal, GPU
-### TopHat
+#### TopHat
    Set Meter Color to `System Accent Color`
-### Burn My Windows
+#### Burn My Windows
    Set Color to `System Accent Color`
-### gNordVPN-Local
+#### gNordVPN-Local
    /General: Enable `Auto-connect on Startup`
 
 ## 05 Install Misc
@@ -125,8 +125,8 @@
 *  .hbrs-certs
 
 ## 08 Config System
-### Config Gnome Tweaks
-### Config OS Settings
+#### Config Gnome Tweaks
+#### Config OS Settings
 #### Custom Shortcuts:
 <pre>
 Launch CLI
@@ -139,9 +139,9 @@ nautilus --new-window
 Super + F
 </pre>
 
-### Config Lockscreen Background
-### Config OS PFP
-### Config OS Background
+#### Config Lockscreen Background
+#### Config OS PFP
+#### Config OS Background
 
 ## 09 Remove unused Apps
 * gnome-console

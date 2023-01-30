@@ -5,6 +5,7 @@
 #### System Accent Color: `#b702ff`
 #### Old System Accent Color: `#b526ff`
 
+
 ## 0 EndeavourOS Installer
 ### Installer
 * Select `Start the Installer`

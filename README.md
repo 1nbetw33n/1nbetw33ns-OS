@@ -216,7 +216,6 @@
 * _**TODO: Update this Section**_
 *  Documents
 *  Pictures
-*  .hbrs-certs
 
 ## 6 Config System
 ### Config Gnome Tweaks

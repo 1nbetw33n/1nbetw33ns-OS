@@ -47,8 +47,7 @@
 #### Update System
 #### Package Cleanup Config
 #### Launch Script:
-* (1) open xterm
-* (2) run `/run/media/inbetween/Backup/EndeavourOS/os-config/script/minimal-eos-installer.sh`
+* run in cli: `/run/media/inbetween/Backup/EndeavourOS/os-config/script/minimal-eos-installer.sh`
 
 ## 2 Core
 * sed

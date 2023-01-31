@@ -163,12 +163,13 @@
 #### Firefox
 * General: 
    * Enter `about:config` in search bar and search for `browser.tabs.closeWindowWithLastTab`
-    * Set `browser.tabs.closeWindowWithLastTab` to `false`
+   * Set `browser.tabs.closeWindowWithLastTab` to `false`
 * Enhancer for YouTube:
   * Enable `YouTube-DeepDark (custom)` and set `--main-color` to `System Accent Color`
 * Dark Mode:
   * Set ` I. General dark styles (class a)` to `Dark mode #6 (amoled dark)`
   * Add `startpage.com, github.com, gist.github.com, youtube.com, trello.com` to `VI. Comma separated list of sites to exclude from dark mode`
+* Cookie Auto Delete: 
 ![Firefox](src/img/04_packages-config/1_firefox-config/firefox-ui.png)
 #### Firefox Dev
 #### Brave

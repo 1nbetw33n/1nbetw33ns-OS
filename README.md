@@ -155,7 +155,7 @@
 
 ### Config
 #### Gnome Terminal
-  /Profiles/Unnamed/Colors:
+  /Preferences/Profiles/Unnamed/Colors:
     * Disable `Use colors from system theme`
     * Set `Built in schemes` to `Gnome Dark`
     * Set `Default color` `text` to `#FFFFFF`

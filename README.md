@@ -52,8 +52,6 @@
 ## 2 Core
 * sed
 * permanently disable wayland and set x11 as default session
-* Timeshift
-* Timeshift-autosnap
 * REISUB
 * Zsh
 * OhMyZsh
@@ -254,6 +252,7 @@ Super + F
 ### Config Lockscreen Background
 ### Config OS PFP
 ### Config OS Background
+### Timeshift
 
 ## 8 Config Wifi
 #### https://www.h-brs.de/de/wlan-nutzung-an-der-hbrs

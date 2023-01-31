@@ -161,7 +161,9 @@
     * Set `Default color` `text` to `#FFFFFF`
 #### NordVPN
 #### Firefox
-* Set `browser.tabs.closeWindowWithLastTab` to `false`
+* General: 
+   * Enter `about:config` in search bar and search for `browser.tabs.closeWindowWithLastTab`
+    * Set `browser.tabs.closeWindowWithLastTab` to `false`
 * Enhancer for YouTube:
   * Enable `YouTube-DeepDark (custom)` and set `--main-color` to `System Accent Color`
 * Dark Mode:

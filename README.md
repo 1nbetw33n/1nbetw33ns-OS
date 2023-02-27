@@ -2,7 +2,7 @@
 #### A script to install and configure a heavily customized, transparent, minimal EndeavourOS with purple Accents.
 #### Version: 2.2.1
 #### Author: 1nbetw33n
-#### System Accent Color: `#b702ff`
+#### System Accent Color: `#ff33ff` `#8D00CC` `#b702ff` `#7065e2`
 #### Old System Accent Color: `#b526ff`
 
 
@@ -26,7 +26,7 @@
  * `GNOME-Desktop`
  * `Printing-Support`
  * `Support for Hp Printer/Scanner`
-#### Boatloader
+#### Bootloader
 * Select `systemd-boot`
 #### Partitions
 * Select `Erase Disk`

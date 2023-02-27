@@ -1,13 +1,21 @@
 #!bin/bash
 
-home=/home/inbetween
-backup=/run/media/inbetween/Backup
+# run in cli:
+# bash /home/inbetween/IdeaProjects/Minimal-Graphical-EndeavourOS-Config/src/script/create-backup.sh
 
-#create new dir in external ssd 
-mkdir $backup/EOS_$(date +"%d-%m-%Y")
-#copy files to external ssd
-echo "### backup up /home/inbetween to external drive"
-cp -a $home/. $backup/EOS_$(date +"%d-%m-%Y")
+home_dir=/home/$USER
+backup_dir=/run/media/$USER/Backup
+backup_name=EOS_$(date +"%d-%m-%Y_%H:%M")
+
+echo
+echo "### backup: creating new directory in external drive"
+mkdir "$backup_dir/$backup_name"
+
+echo "### backup: backing up $home_dir to external drive"
+echo "### backup: this will take some time..."
+echo
+cp -r "$home_dir/." "$backup_dir/$backup_name"
 ##TODO: code remove backups (for example: older than certain date or only keep 5 backups etc.)
 echo "### finished!"
+echo
 	

@@ -1,4 +1,4 @@
-#!bin/bash
+#!/usr/bin/env bash
 
 home_dir=/home/$USER
 ext_home_dir=/run/media/$USER/Backup/EndeavourOS/home

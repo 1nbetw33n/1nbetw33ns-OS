@@ -1,4 +1,4 @@
-#!bash/bin
+#!/usr/bin/env bash
 
 ##system theme and background
   echo "### System: Theme and Background - Configuring..."

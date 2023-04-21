@@ -1,4 +1,4 @@
-#!bash/bin
+#!/usr/bin/env bash
 
 ##cleaning up
   echo "### Exit:: Removing Unused Packages..."

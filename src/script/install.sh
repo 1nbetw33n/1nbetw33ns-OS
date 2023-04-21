@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-resources_dir="../resources"
+resources_dir="src/resources"
 modules_dir="modules"
 
 # read module names from file into array

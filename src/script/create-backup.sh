@@ -1,21 +1,27 @@
-#!bin/bash
+#!/usr/bin/env bash
 
 # run in cli:
 # bash /home/inbetween/IdeaProjects/Minimal-Graphical-EndeavourOS-Config/src/script/create-backup.sh
 
+source /home/inbetween/IdeaProjects/Minimal-Graphical-EndeavourOS-Config/src/script/new/util.sh
+
 home_dir=/home/$USER
 backup_dir=/run/media/$USER/Backup
-backup_name=EOS_$(date +"%d-%m-%Y_%H:%M")
+backup_name=Arch_$(date +"%Y-%m-%d_%H:%M")
 
 echo
-echo "### backup: creating new directory in external drive"
-mkdir "$backup_dir/$backup_name"
+echo "### Backup:: Creating New Directory In External Drive..."
+sleep 1
+mkdir "$backup_dir/$backup_name" > /dev/null 2>&1
 
-echo "### backup: backing up $home_dir to external drive"
-echo "### backup: this will take some time..."
+echo "### Backup:: Backing Up $home_dir To External Drive..."
+sleep 1
+echo "### Backup:: This Will Take Some Time..."
+
+cp -r "$home_dir/." "$backup_dir/$backup_name" > /dev/null 2>&1 &
+show_spinner $!
+##TODO: code remove backups (for example: older than certain date or only keep 5 backups or so)
 echo
-cp -r "$home_dir/." "$backup_dir/$backup_name"
-##TODO: code remove backups (for example: older than certain date or only keep 5 backups etc.)
-echo "### finished!"
+echo "### Backup:: Done!"
 echo
 	

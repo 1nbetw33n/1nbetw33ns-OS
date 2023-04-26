@@ -2,7 +2,7 @@
 
 home_dir=/home/$USER
 ext_home_dir=/run/media/$USER/Backup/EndeavourOS/home
-resources_path="../../resources"
+resources_path="../resources"
 
 periods=(. .. ...)
 

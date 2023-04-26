@@ -3,7 +3,7 @@
 resources_path="../../resources"
 
 echo
-echo "### Installer:: Initialized Installation Script Part 1"
+echo "### Installer:: Initialized Init"
 echo
 sleep 5
 ############################
@@ -26,4 +26,4 @@ echo "### Core:: Installing Zsh..."
 yay -S --noconfirm zsh
 
 echo "### Core:: Installing Oh-my-zsh..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" & disown

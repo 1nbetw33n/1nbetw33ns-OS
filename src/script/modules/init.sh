@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-resources_path="../../resources"
+resources_path="../resources"
 
 echo
 echo "### Installer:: Initialized Init"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # path to custom keybindings resources
-resources_path="../resources/keybindings/custom-keybindings"
+resources_path="../../resources/keybindings/custom-keybindings"
 
 # location of custom keybindings
 media_keys_dir="org.gnome.settings-daemon.plugins.media-keys"

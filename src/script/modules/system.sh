@@ -24,4 +24,4 @@
   echo "### System:: touchegg - Configuring..."
   sudo systemctl enable touchegg.service
   sudo systemctl start touchegg
-  touchegg
+  touchegg & disown

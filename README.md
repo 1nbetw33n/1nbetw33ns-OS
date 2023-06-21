@@ -5,9 +5,9 @@
 #### To download all necessary files (resources and scripts) and run the configuration script, run the following command in the terminal:
 ```sh
 wget -O 1nbetw33ns-OS.zip https://github.com/1nbetw33n/1nbetw33ns-OS/archive/refs/heads/main.zip && \
-unzip ~/1nbetw33ns-OS.zip 1nbetw33ns-OS-main/src/resources/* 1nbetw33ns-OS-main/src/script/modules/* 1nbetw33ns-OS-main/src/script/configure.sh && \
-sudo rm -rf ~/1nbetw33ns-OS.zip && \
-cd ~/1nbetw33ns-OS-main/src/script/ && bash configure.sh
+unzip "${HOME}"/1nbetw33ns-OS.zip 1nbetw33ns-OS-main/src/resources/* 1nbetw33ns-OS-main/src/script/modules/* 1nbetw33ns-OS-main/src/script/configure.sh && \
+sudo rm -rf "${HOME}"/1nbetw33ns-OS.zip && \
+cd "${HOME}"/1nbetw33ns-OS-main/src/script/ && bash configure.sh
 ```
 
 <br>
@@ -15,12 +15,12 @@ cd ~/1nbetw33ns-OS-main/src/script/ && bash configure.sh
 #### To _ONLY DOWNLOAD_ all necessary files (resources and scripts), run the following command in the terminal:
 ```sh
 wget -O 1nbetw33ns-OS.zip https://github.com/1nbetw33n/1nbetw33ns-OS/archive/refs/heads/main.zip && \
-unzip ~/1nbetw33ns-OS.zip 1nbetw33ns-OS-main/src/resources/* 1nbetw33ns-OS-main/src/script/modules/* 1nbetw33ns-OS-main/src/script/configure.sh && \
-sudo rm -rf ~/1nbetw33ns-OS.zip
+unzip "${HOME}"/1nbetw33ns-OS.zip 1nbetw33ns-OS-main/src/resources/* 1nbetw33ns-OS-main/src/script/* && \
+sudo rm -rf "${HOME}"/1nbetw33ns-OS.zip
 ```
 
 <br>
 
-#### Version ::  5.0.1
+#### Version ::  5.1.1
 #### Author ::   1nbetw33n
 #### License ::  GNU General Public License v3.0

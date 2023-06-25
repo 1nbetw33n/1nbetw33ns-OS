@@ -1,1 +1,0 @@
-/home/inbetween/.mozilla/firefox/l0utqk8x.default-release/chrome/programs/user.js

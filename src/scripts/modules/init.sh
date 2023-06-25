@@ -20,8 +20,7 @@ yay -S --noconfirm "${core[@]}"
 echo "### Core :: Permanently Disabling Wayland And Setting Xorg As Default Session... ###"
 sudo sed -i 's/#WaylandEnable=false/WaylandEnable=false\nDefaultSession=gnome-xorg.desktop/g' /etc/gdm/custom.conf
 
-echo "### Core :: Installing Zsh... ###"
-yay -S --noconfirm zsh
+
 
 echo "### Core :: Installing Oh-my-zsh... ###"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" & disown

@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-res_dir="../resources"
-mods_dir="modules"
+res_dir="../../resources"
+
 
 # read module names from modules.csv into mods
 readarray -t mods < "${res_dir}/modules.csv"
 
 # executing modules
 for mod in "${mods[@]}"; do
-  bash "${mods_dir}/${mod}"
+  bash "/modules/${mod}"
 done
 

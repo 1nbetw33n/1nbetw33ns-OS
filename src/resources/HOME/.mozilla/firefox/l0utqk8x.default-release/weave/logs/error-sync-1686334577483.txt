@@ -1,0 +1,23 @@
+1686334400199	Sync.LogManager	DEBUG	Flushing file log
+1686334400201	Sync.LogManager	DEBUG	Log cleanup threshold time: 1685470400201
+1686334400203	Sync.LogManager	DEBUG	Done deleting files.
+1686334422720	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1686334422720	Sync.Service	DEBUG	User-Agent: Firefox/114.0 (Linux x86_64) FxSync/1.116.0.20230605155639.desktop
+1686334422720	Sync.Service	INFO	Starting sync at 2023-06-09 20:13:42 in browser session h5GMNHMvvPH3
+1686334422721	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1686334422724	Sync.Status	INFO	Resetting Status.
+1686334422724	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1686334422725	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1686334422725	FirefoxAccounts	DEBUG	getOAuthToken enter
+1686334422726	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1686334422726	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1686334422726	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1686334569417	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1686334569473	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1686334569473	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1686334577480	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/164986179/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1686334577480	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1686334577480	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1686334577480	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 3565788 ms.
+1686334577480	Sync.SyncScheduler	DEBUG	Next sync in 3565788 ms. (why=client-backoff-schedule)
+1686334577483	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

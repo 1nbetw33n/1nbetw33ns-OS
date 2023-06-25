@@ -1,0 +1,7 @@
+init.sh
+extensions.sh
+packages.sh
+transfer-data.sh
+set_accent-colors.sh
+system.sh
+exit.sh

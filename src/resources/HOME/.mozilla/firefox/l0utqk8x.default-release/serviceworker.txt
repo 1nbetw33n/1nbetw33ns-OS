@@ -1,0 +1,13 @@
+9
+
+https://metamask.github.io/phishing-warning/v2.1.0/
+https://metamask.github.io/phishing-warning/v2.1.0/service-worker.js
+true
+{f6b5b5e5-3c53-4760-8bd4-c7ad1447c9a6}
+0
+1687181626105143
+1687181626105995
+1687181625697653
+0
+true
+#

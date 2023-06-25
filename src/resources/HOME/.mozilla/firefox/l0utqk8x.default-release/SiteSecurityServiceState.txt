@@ -1,0 +1,5 @@
+firefox.settings.services.mozilla.com:HSTS	0	19527	1718722139245,1,0
+api-gateway.trello.com^partitionKey=%28http%2Ctrello.com%29:HSTS	0	19527	1750258214007,1,0
+github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	19527	1718722224831,1,1
+www.startpage.com^partitionKey=%28http%2Cstartpage.com%29:HSTS	0	19527	1750258219958,1,1
+smart.couponbirds.com:HSTS	0	19527	1718722225511,1,1

@@ -7,25 +7,23 @@
 
 <br>
 
-#### To download all necessary files (resources and scripts) and run the configuration script, run the following command in the terminal:
-#### _---->> NOT SURE IF CURRENTLY WORKING <<----_
-```sh
-wget -O 1nbetw33ns-OS.zip https://github.com/1nbetw33n/1nbetw33ns-OS/archive/refs/heads/just_graphical.zip && \
-unzip "${HOME}"/1nbetw33ns-OS.zip 1nbetw33ns-OS-just_graphical/src/resources/* 1nbetw33ns-OS-just_graphical/src/script/modules/* 1nbetw33ns-OS-just_graphical/src/script/configure.sh && \
-sudo rm -rf "${HOME}"/1nbetw33ns-OS.zip && \
-cd "${HOME}"/1nbetw33ns-OS-just_graphical/src/script/ && bash configure.sh
-```
-
-<br>
-
-#### To _ONLY DOWNLOAD_ all necessary files (resources and scripts), run the following command in the terminal:
+#### _DOWNLOAD_ all necessary files (resources and scripts) ::
 ```sh
 wget -O 1nbetw33ns-OS.zip https://github.com/1nbetw33n/1nbetw33ns-OS/archive/refs/heads/just_graphical.zip && \
 unzip "${HOME}"/1nbetw33ns-OS.zip && sudo rm -rf "${HOME}"/1nbetw33ns-OS.zip
 ```
+#### _RUN_ the configuration script ::
+```sh
+cd "${HOME}"/1nbetw33ns-OS-just_graphical/src/script/ && sh configure.sh
+```
+#### After restarting the gdm-session install Oh-My-Zsh ::
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 
 <br>
 
-#### Version ::  5.6.1
+#### Version ::  6.0.1
 #### Author ::   1nbetw33n
 #### License ::  GNU General Public License v3.0

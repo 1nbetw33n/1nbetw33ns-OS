@@ -24,8 +24,3 @@ readarray -t extensions < "${res_mods}/extensions.csv"
   done
 
 echo "### Gnome Extensions :: Configuring... ###"
-# creating extensions dir in ~/.local/share/gnome-shell if its not there
-mkdir -p "$HOME"/.local/share/gnome-shell/extensions
-
-# copying extensions configs to ~/.local/share/gnome-shell/extensions
-cp -r "${res_extensions}" "$HOME"/.local/share/gnome-shell/extensions

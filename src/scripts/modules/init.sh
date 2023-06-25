@@ -6,7 +6,7 @@ source "$(dirname "$0")/paths.sh"
 echo
 echo "### Installer :: Initialized Init... ###"
 echo
-sleep 5
+sleep 2
 ############################
 ########## Core ##########
 
@@ -34,7 +34,7 @@ sudo sed -i 's/#WaylandEnable=false/WaylandEnable=false\nDefaultSession=gnome-xo
 # setting up zsh
 echo "### Core :: Installing Oh-my-zsh... ###"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" & disown
-zsh
+zsh & disown
 
 # installing powerlevel10k
 echo "### Core :: Installing Powerlevel10k... ###"

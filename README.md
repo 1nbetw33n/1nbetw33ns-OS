@@ -26,6 +26,6 @@ unzip "${HOME}"/1nbetw33ns-OS.zip && sudo rm -rf "${HOME}"/1nbetw33ns-OS.zip
 
 <br>
 
-#### Version ::  5.5.1
+#### Version ::  5.6.1
 #### Author ::   1nbetw33n
 #### License ::  GNU General Public License v3.0

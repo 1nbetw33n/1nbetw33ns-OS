@@ -6,14 +6,14 @@ source "$(dirname "$0")/paths.sh"
 # read package names from file into array
 readarray -t packages < "${res}/packages.csv"
 
-#listing packages
+# listing packages
   echo "### Packages :: Installing the following packages: ###"
-  sleep 5
+  sleep 2
   for pkg in "${packages[@]}"; do
     echo "$pkg"
   done
 
-#installing packages
+# installing packages
   for pkg in "${packages[@]}"; do
 	  yay -S --noconfirm "$pkg"
   done

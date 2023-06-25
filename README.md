@@ -1,13 +1,13 @@
 # 1nbetw33ns Config Script
 #### This script is intended to be run on an arch-based fresh installation with gnome as desktop environment and xorg as display server.
-#### Theme  ::  Lavanda-Dark
-#### Icons  ::  Candy-icons
-#### Cursor ::  Sweet-cursors
-#### Shell  ::  Orchis-Purple-Dark-Compact
+#### Cursor              ::  Sweet-cursors
+#### Icons               ::  Candy-icons 
+#### Shell Theme         ::  Lavanda-Dark
+#### Legacy Applications ::  Lavanda-Dark
 
 <br>
 
-##### Before running the script, make sure the System is up to date ::
+##### Before running the script, make sure the System is up-to-date ::
 ```sh
 yay -Syu
 ```
@@ -39,11 +39,8 @@ sh configure.sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-
-
-
 <br>
 
-#### Version ::  6.4.2
+#### Version ::  6.4.3
 #### Author ::   1nbetw33n
 #### License ::  GNU General Public License v3.0

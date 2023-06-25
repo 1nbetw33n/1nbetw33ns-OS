@@ -3,7 +3,7 @@
 ### stores recurring paths for use in other scripts ###
 
 # path to resources directory
-res="../../../resources"
+res="../../resources"
 
 # path to module csv files in resources directory
 res_mods="${res}/modules"

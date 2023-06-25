@@ -4,7 +4,7 @@
 source "$(dirname "$0")/paths.sh"
 
 # read package names from file into array
-readarray -t packages < "${res}/packages.csv"
+readarray -t packages < "${res_mods}/packages.csv"
 
 # listing packages
   echo "### Packages :: Installing the following packages: ###"
@@ -12,6 +12,7 @@ readarray -t packages < "${res}/packages.csv"
   for pkg in "${packages[@]}"; do
     echo "$pkg"
   done
+  sleep 3
 
 # installing packages
   for pkg in "${packages[@]}"; do

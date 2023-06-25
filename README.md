@@ -20,6 +20,7 @@ yay -Syu
 - readme
 - license
 ```sh
+cd "${HOME}" || exit && \
 wget -O 1nbetw33ns-OS.zip https://github.com/1nbetw33n/1nbetw33ns-OS/archive/refs/heads/just_graphical.zip && \
 unzip -qq "1nbetw33ns-OS.zip" && \
 cd "1nbetw33ns-OS-just_graphical" || exit && \
@@ -43,6 +44,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 <br>
 
-#### Version ::  6.4.1
+#### Version ::  6.4.2
 #### Author ::   1nbetw33n
 #### License ::  GNU General Public License v3.0

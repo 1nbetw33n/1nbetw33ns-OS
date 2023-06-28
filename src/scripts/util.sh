@@ -2,6 +2,26 @@
 
 # utility functions for scripts
 
+
+# function to remove all from csv files with path as first argument and an array of csv files as second argument
+function remove_all_from_csv_files() {
+  local path
+  local csvs
+  path="$1"
+  # to access an array as a list of arguments, I need to use "${@:2}"; e.g.: file1 file2 file3 etc.
+  csvs=("${@:2}")
+  for csv_file in "${csvs[@]}"; do
+    :>"${path}/${csv_file}"
+  done
+}
+
+# function to remove all from a single file with path to file as argument
+function remove_all_from_file() {
+  local path
+  path="$1"
+  :>"${path}"
+}
+
 # converts a hex color that is provided as argument in the format #RRGGBB to a RGB color in the format (R,G,B)
 function hex_to_rgb() {
   local color

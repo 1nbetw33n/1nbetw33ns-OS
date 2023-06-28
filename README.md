@@ -41,6 +41,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 <br>
 
-#### Version ::  6.4.3
+#### Version ::  6.4.7
 #### Author ::   1nbetw33n
 #### License ::  GNU General Public License v3.0

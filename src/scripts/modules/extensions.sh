@@ -23,4 +23,10 @@ readarray -t extensions < "${res_mods}/extensions.csv"
       	rm -r "$ext.zip"
   done
 
+  # downloading and installing pop-shell tiling window manager
+  git clone https://github.com/pop-os/shell.git
+  cd shell || exit
+  make local-install
+  cd "${HOME}" || exit
+
 echo "### Gnome Extensions :: Configuring... ###"

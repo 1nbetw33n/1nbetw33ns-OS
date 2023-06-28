@@ -1,11 +1,19 @@
 # 1nbetw33ns Config Script
 #### This script is intended to be run on an arch-based fresh installation with gnome as desktop environment and xorg as display server.
-#### Cursor              ::  Sweet-cursors
-#### Icons               ::  Candy-icons 
-#### Shell Theme         ::  Lavanda-Dark
-#### Legacy Applications ::  Lavanda-Dark
+#### It will install and configure everything that is needed to have a similar(-ish) experience to the one I have on my machine (see below).
 
 <br>
+
+#### Cursor                 ::  Sweet-cursors
+#### Icons                  ::  Candy-icons 
+#### Shell Theme            ::  Lavanda-Dark
+#### Legacy Applications    ::  Lavanda-Dark
+#### Font                   ::  CaskaydiaCove Nerd Font
+#### Mono Font              ::  FiraCode Nerd Font
+#### Tiling Window Manager  ::  Pop-Shell
+#### Terminal               ::  Kitty
+
+<br> 
 
 ##### Before running the script, make sure the System is up-to-date ::
 ```sh
@@ -41,6 +49,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 <br>
 
-#### Version ::  6.4.7
+#### Version ::  7.0.0
 #### Author ::   1nbetw33n
 #### License ::  GNU General Public License v3.0

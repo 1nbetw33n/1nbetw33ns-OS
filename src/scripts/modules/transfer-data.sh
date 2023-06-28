@@ -69,15 +69,16 @@ source "$(dirname "$0")/paths.sh"
 	cp -r "${res_HOME}"/Pictures/backgrounds "${HOME}"/Pictures
 
 
-## .p10k.zsh & .zshrc
+## .p10k.zsh & .zshrc & .oh-my-zsh
   echo "### Zsh :: Config - Importing data... ###"
 
-  # removing .p10k.zsh & .zshrc from ~
+  # removing .p10k.zsh & .zshrc & .oh-my-zsh from ~
   cd "${HOME}" || exit
-  rm -rf .p10k.zsh .zshrc
+  rm -rf .p10k.zsh .zshrc .oh-my-zsh
   cd "${HOME}"/1nbetw33ns-OS-just_graphical/src/scripts || exit
 
-  # copying .p10k.zsh & .zshrc from resources/HOME to ~
+  # copying .p10k.zsh & .zshrc & .oh-my-zsh from resources/HOME to ~
   cd "${res_HOME}" || exit
-  cp .p10k.zsh .zshrc "${HOME}"
+  cp .p10k.zsh .zshrc .oh-my-zsh "${HOME}"
   cd "${HOME}"/1nbetw33ns-OS-just_graphical/src/scripts || exit
+

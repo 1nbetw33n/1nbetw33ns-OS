@@ -20,5 +20,12 @@ res_local_share="${res_HOME}/.local/share"
 # path to extension in resources directory
 res_extensions="${res_local_share}/gnome-shell/extensions"
 
-#
+# path to keybindings cvs file directory in resources directory
+res_keybindings="${res}/keybindings"
+
+# path to custom keybindings directory in resources directory
+res_keybindings-custom="${res_keybindings}/custom"
+
+# path to wm keybindings directory in resources directory
+res_keybindings-wm="${res_keybindings}/wm"
 

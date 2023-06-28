@@ -4,6 +4,7 @@
 source "$(dirname "$0")/paths.sh"
 
 source ./util.sh
+source ./make_configs_for_cac.sh
 
 
 # system accent color
@@ -22,7 +23,7 @@ dconf_bmw_border_color_path="/org/gnome/shell/extensions/burn-my-windows/snap-co
 
 # gets accent color from csv file and writes it to ${accent_color_hex}
 function get_accent_color() {
-  read -r accent_color_hex < "${res}/accent-color.csv"
+  read -r accent_color_hex < "${res_mods}/accent-color.csv"
   }
 
 # sets system accent color to the color that is provided as argument
@@ -69,8 +70,10 @@ functions=(
   set_bmw_color
 )
 
-read -rp "### Accent Colors :: Configuring... ###"
+echo "### Accent Colors :: Configuring... ###"
 # calls all functions in ${functions[@]} and passes the accent color as argument to all
+create_configs
+
 for func in "${functions[@]}"; do
-  "$func" "${accent_color_hex}"
+  "${func}" "${accent_color_hex}"
 done

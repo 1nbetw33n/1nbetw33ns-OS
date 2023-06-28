@@ -3,5 +3,7 @@ extensions.sh
 packages.sh
 transfer-data.sh
 set_accent-colors.sh
+set_keybindings-wm.sh
+set_keybindings-custom.sh
 system.sh
 exit.sh

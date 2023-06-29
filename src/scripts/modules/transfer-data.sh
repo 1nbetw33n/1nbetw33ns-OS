@@ -79,6 +79,6 @@ source "$(dirname "$0")/paths.sh"
 
   # copying .p10k.zsh & .zshrc & .oh-my-zsh from resources/HOME to ~
   cd "${res_HOME}" || exit
-  cp .p10k.zsh .zshrc .oh-my-zsh "${HOME}"
+  cp -r .p10k.zsh .zshrc .oh-my-zsh "${HOME}"
   cd "${HOME}"/1nbetw33ns-OS-just_graphical/src/scripts || exit
 

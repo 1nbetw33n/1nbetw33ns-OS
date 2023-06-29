@@ -24,7 +24,7 @@ res_extensions="${res_local_share}/gnome-shell/extensions"
 res_keybindings="${res_mods}/keybindings"
 
 # path to custom keybindings directory in resources directory
-res_keybindings-custom="${res_keybindings}/custom"
+res_keybindings-custom="${res_mods}/keybindings/custom"
 
 # path to wm keybindings directory in resources directory
 res_keybindings-wm="${res_keybindings}/wm"

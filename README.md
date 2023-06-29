@@ -34,8 +34,8 @@ unzip -qq "1nbetw33ns-OS.zip" && \
 cd "1nbetw33ns-OS-just_graphical" || exit && \
 rm -rf .idea .gitignore out && \
 cd "${HOME}" || exit
+rm -rf 1nbetw33ns-OS.zip
 ```
-
 
 #### _RUN_ the configuration script ::
 ```sh
@@ -49,6 +49,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 <br>
 
-#### Version ::  7.0.0
+#### Version ::  7.0.1
 #### Author ::   1nbetw33n
 #### License ::  GNU General Public License v3.0

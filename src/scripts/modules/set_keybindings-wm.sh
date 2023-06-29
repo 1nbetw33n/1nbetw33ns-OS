@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-# path to custom keybindings resources
-resources_path="../../resources/keybindings/wm-keybindings"
+# importing paths from paths.sh
+source "$(dirname "$0")/paths.sh"
 
 # read keys from file into array
-readarray -t keys < "${resources_path}/keys.csv"
+readarray -t keys < "${res_keybindings-wm}/keys.csv"
 
 # read values from file into array
-readarray -t values < "${resources_path}/values.csv"
+readarray -t values < "${res_keybindings-wm}/values.csv"
 
 # print key-value pairs
 :<<'EOF'
